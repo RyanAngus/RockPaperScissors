@@ -1,0 +1,103 @@
+/* fonts: 
+font-family: 'Roboto Flex', sans-serif;
+
+*/
+
+body {
+    background-color: #080001;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    color: aliceblue;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    background-color: #35A7FF;
+    color: #fff;
+    border-style: none;
+    padding: 15px 30px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 10px;
+}
+
+.guess-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: aliceblue;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+}
+
+.computer-guess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: #080001;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    padding: 0;
+}
+
+.player-guess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    background-color: #080001;
+    color: white;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 72px;
+    padding: 0;
+    
+}
+
+.playerScore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #080001;
+    color: #FF5964;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    border-radius: 50%;
+
+}
+
+.computerScore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: #080001;
+    color: #FF5964;
+    font-family: 'Roboto Flex', sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    border-radius: 50%;
+    
+}
+
